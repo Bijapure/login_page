@@ -1,0 +1,72 @@
+<!DOCTYPE html>    
+<html>    
+<head>    
+    <title>Login Form</title>    
+	<style>
+ 
+.login{  
+        width: 382px;  
+        overflow: hidden;  
+        margin: auto;  
+        margin: 20 0 0 450px;  
+        padding: 80px;  
+        background: #FEAB9A;  
+        border-radius: 15px ;  
+          
+}  
+h2{  
+    text-align: center;  
+    color: #6D3D3D;  
+}  
+label{  
+    color: #FFFF;  
+    font-size: 17px;  
+	padding-bottom:15px;
+}  
+#Uname,#Pass{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 2px;  
+    padding-left: 8px;  
+}  
+
+#log{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 17px;  
+    padding-left: 7px;  
+    color: black;  
+	text-align: center; 
+  
+}  
+span{
+    color: blue;  
+    font-size: 14px;
+}  
+
+	</style>
+</head>    
+<body>    
+<div class="login">    
+    <form id="login" method="get" action="login.php">    
+       <h2>Welcome Back !</h2><br>    
+      <label><b>Username     
+        </b>    
+        </label>    
+        <input type="text" name="Uname" id="Uname" placeholder="Username">    
+        <br><br>    
+        <label><b>Password     
+        </b>    
+        </label>    
+        <input type="Password" name="Pass" id="Pass" placeholder="Password">    
+        <br><br><br>
+        <input type="button" name="log" id="log" value="Log In">       
+        <br><br>
+         <span> <a href="#">Forgot password ?</a></span>    
+        <br><br>        
+    </form>     
+</div>    
+</body>    
+</html> 
